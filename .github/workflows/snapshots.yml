@@ -47,4 +47,4 @@ jobs:
           tag: snapshot
           rm: true
           files: |
-            server/fabric/*/build/libs/MinecraftAuth-Fabric*.jar
+            server/fabric/*/build/libs/*.jar
