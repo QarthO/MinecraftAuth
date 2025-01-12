@@ -17,7 +17,7 @@ plugins {
 
 version = "1.20.1"
 group = "me.minecraftauth"
-archivesBaseName = "${modid}"
+archivesBaseName = "MinecraftAuth-Fabric"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
