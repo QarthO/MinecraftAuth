@@ -47,8 +47,9 @@ jobs:
           tag: snapshot
           rm: true
           files: |
-            server/bukkit/build/libs/MinecraftAuth-Bukkit*.jar
-            server/sponge/build/libs/MinecraftAuth-Sponge*.jar
-            server/forge/*/build/libs/MinecraftAuth-Forge*.jar
-            proxy/bungeecord/build/libs/MinecraftAuth-BungeeCord.jar
-            proxy/velocity/build/libs/MinecraftAuth-Velocity.jar
+#            server/bukkit/build/libs/MinecraftAuth-Bukkit*.jar
+#            server/sponge/build/libs/MinecraftAuth-Sponge*.jar
+#            server/forge/*/build/libs/MinecraftAuth-Forge*.jar
+            server/fabric/*/build/libs/MinecraftAuth-Fabric*.jar
+#            proxy/bungeecord/build/libs/MinecraftAuth-BungeeCord.jar
+#            proxy/velocity/build/libs/MinecraftAuth-Velocity.jar
