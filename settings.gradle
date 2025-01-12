@@ -1,19 +1,19 @@
 pluginManagement {
     repositories {
-        gradlePluginPortal()
-        maven {
-            name = 'MinecraftForge'
-            url = 'https://maven.minecraftforge.net/'
-        }
         maven {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
         }
+        gradlePluginPortal()
+    }
+    plugins {
+        id 'fabric-loom' version '1.9-SNAPSHOT'
     }
 }
 
 rootProject.name = 'MinecraftAuthentication-Plugin'
 
 include 'common'
-include 'server:bukkit', 'server:sponge', 'server:forge:1.16.5', 'server:forge:1.18.2', 'server:forge:1.19.3', 'server:forge:1.20.1'
-include 'proxy:bungeecord', 'proxy:velocity'
+include 'server:fabric:1.20.1'
+//include 'server:bukkit', 'server:sponge', 'server:forge:1.16.5', 'server:forge:1.18.2', 'server:forge:1.19.3', 'server:forge:1.20.1'
+//include 'proxy:bungeecord', 'proxy:velocity'
