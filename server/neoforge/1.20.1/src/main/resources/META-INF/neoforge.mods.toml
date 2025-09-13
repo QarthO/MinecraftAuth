@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Apache License, Version 2.0"
+
+[[mods]]
+modId="minecraftauth"
+version="1.21.1"
+displayName="Minecraft Authentication"
+description='''Authenticate players in your Minecraft server to various services'''
+authors="Minecraft Authentication"
+
+[[dependencies.minecraftauth]]
+modId="neoforge"
+type="required"
+versionRange="[21,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.minecraftauth]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.9)"
+ordering="NONE"
+side="BOTH"
+
+
